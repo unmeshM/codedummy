@@ -9,8 +9,13 @@ namespace baseone
 {
     class Program
     {
+        static void ContainerRegistrations(UnityContainer container)
+        {
+            container.RegisterType<IVehicleRepository<IVehicle>, VehicleRepository<IVehicle>>();
+        }
         static void Main(string[] args)
         {
+            ContainerRegistrations(new UnityContainer());
         }
     }
 }

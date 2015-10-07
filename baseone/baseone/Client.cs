@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace baseone
 {
-    public interface IVehicle
+    class Client
     {
-        int getVehicleId();
-        string getVehicleName();
     }
 }

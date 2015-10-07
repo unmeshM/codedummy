@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace baseone
 {
-    public interface IVehicleRepository<TVehicle> where TVehicle:IVehicle
+    public interface IVehicleRepository<TVehicle> where TVehicle : IVehicle
     {
         void Add(TVehicle vehicle);
         TVehicle GetVehicle(Func<TVehicle> query);
