@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace baseone
 {
-    class VehicleRepository<TVehicle> : IVehicleRepository<TVehicle> where TVehicle : Vehicle
+    public class VehicleRepository<TVehicle> : IVehicleRepository<TVehicle> where TVehicle : Vehicle
     {
         public VehicleRepository() { }
 
