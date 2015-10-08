@@ -11,11 +11,14 @@ namespace baseone
     {
         static void ContainerRegistrations(UnityContainer container)
         {
-            container.RegisterType<IVehicleRepository<IVehicle>, VehicleRepository<IVehicle>>();
+            container.RegisterType<IVehicleRepository<Vehicle>, VehicleRepository<Vehicle>>();
         }
         static void Main(string[] args)
         {
-            ContainerRegistrations(new UnityContainer());
+            var container = new UnityContainer();
+            ContainerRegistrations(container);
+            var vehicleRepository = container.Resolve<VehicleRepository<Vehicle>>();
+            vehicleRepository.Add(new MotorCycle { vehicleID = 123, NumberOfWheels = 2,Engine="V-Type" });
         }
     }
 }

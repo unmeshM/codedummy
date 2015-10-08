@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace baseone
 {
-    public class MotorCycle : Vehicle
+    public class Vehicle : Object
     {
-        public string Engine { get; set; }
+        public int vehicleID { get; set; }
+        public int NumberOfWheels { get; set; }
     }
 }

@@ -55,7 +55,7 @@
   <ItemGroup>
     <Compile Include="Bicycle.cs" />
     <Compile Include="Client.cs" />
-    <Compile Include="IVehicle.cs" />
+    <Compile Include="Vehicle.cs" />
     <Compile Include="IVehicleRepository.cs" />
     <Compile Include="MotorCycle.cs" />
     <Compile Include="Program.cs" />

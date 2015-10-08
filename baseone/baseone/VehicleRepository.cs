@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace baseone
 {
-    class VehicleRepository<TVehicle> : IVehicleRepository<TVehicle> where TVehicle : IVehicle
+    class VehicleRepository<TVehicle> : IVehicleRepository<TVehicle> where TVehicle : Vehicle
     {
         public VehicleRepository() { }
 
         public void Add(TVehicle vehicle)
         {
-            PrintMessage(Convert.ToString(typeof(TVehicle)) + " Added");
+            PrintMessage("Vehicle Added");
         }
 
         public TVehicle GetVehicle(Func<TVehicle> query)
