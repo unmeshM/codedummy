@@ -9,3 +9,5 @@ https://msdn.microsoft.com/en-us/library/dn568100.aspx
 https://azure.microsoft.com/en-us/blog/azure-data-factory-visual-studio-extension-for-authoring-pipelines/
 http://www.asp.net/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/queue-centric-work-pattern
 http://www.codeguru.com/columns/experts/building-an-azure-queuing-message-pipeline.htm
+
+https://msdn.microsoft.com/en-us/gg558520  (T4)
