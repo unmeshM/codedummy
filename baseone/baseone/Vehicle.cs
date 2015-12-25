@@ -8,7 +8,7 @@ namespace baseone
 {
     public class Vehicle : Object
     {
-        public int vehicleID { get; set; }
+        public int vehicleId { get; set; }
         public int NumberOfWheels { get; set; }
     }
 }
