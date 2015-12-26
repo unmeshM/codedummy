@@ -10,5 +10,6 @@ namespace baseone
     {
         public int vehicleId { get; set; }
         public int NumberOfWheels { get; set; }
+        public string Name { get; set; }
     }
 }
